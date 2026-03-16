@@ -1,0 +1,4 @@
+Replace this file with your final resume PDF and rename it to resume.pdf.
+Then update links in:
+- src/components/sections/Hero.jsx
+- src/components/sections/Resume.jsx

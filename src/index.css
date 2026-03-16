@@ -1,0 +1,87 @@
+@import url("https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&family=Sora:wght@400;500;600;700&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  @apply font-body antialiased;
+  background-attachment: fixed;
+}
+
+.scrollbar-hidden {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+.scrollbar-hidden::-webkit-scrollbar {
+  display: none;
+}
+
+::selection {
+  background: rgba(124, 226, 255, 0.25);
+}
+
+.dark .text-mist {
+  color: #9eb4d3;
+}
+
+.text-mist {
+  color: #3e4a5f;
+}
+
+.glass-pulse {
+  animation: glassPulse 6s ease-in-out infinite;
+}
+
+@keyframes glassPulse {
+  0% {
+    box-shadow: 0 0 0 rgba(124, 226, 255, 0.1);
+  }
+  50% {
+    box-shadow: 0 0 40px rgba(124, 226, 255, 0.14);
+  }
+  100% {
+    box-shadow: 0 0 0 rgba(124, 226, 255, 0.1);
+  }
+}
+
+html:not(.dark) .text-white {
+  color: #0f172a;
+}
+
+html:not(.dark) .text-mist {
+  color: #475569;
+}
+
+html:not(.dark) .bg-ink\/70,
+html:not(.dark) .bg-ink\/80 {
+  background-color: rgba(255, 255, 255, 0.78);
+}
+
+html:not(.dark) .bg-white\/5 {
+  background-color: rgba(255, 255, 255, 0.72);
+}
+
+html:not(.dark) .bg-white\/10 {
+  background-color: rgba(255, 255, 255, 0.86);
+}
+
+html:not(.dark) .bg-black\/20 {
+  background-color: rgba(148, 163, 184, 0.14);
+}
+
+html:not(.dark) .border-white\/10,
+html:not(.dark) .border-white\/15,
+html:not(.dark) .border-white\/20,
+html:not(.dark) .border-white\/30 {
+  border-color: rgba(15, 23, 42, 0.14);
+}
+
+html:not(.dark) .shadow-glass {
+  box-shadow: 0 12px 30px rgba(15, 23, 42, 0.08);
+}
