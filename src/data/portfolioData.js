@@ -25,7 +25,7 @@ export const about = {
   goals:
     "My goal is to build resilient products at scale, contribute to high-impact teams, and grow into a Data Engineer role.",
   profileImage:
-    "https://images.unsplash.com/photo-1521572267360-ee0c2909d518?auto=format&fit=crop&w=900&q=80",
+    "/ankit.jpeg",
   learningTimeline: [
     { year: "Aug 2023", title: "Started Programming", detail: "Python fundamentals and Web Development Basics" },
     { year: "Jan 2024", title: "C and C++", detail: "C and C++ programming fundamentals" },

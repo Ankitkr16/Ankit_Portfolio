@@ -16,9 +16,8 @@ function About({ data }) {
             <p className="mt-4 text-mist">{data.goals}</p>
           </div>
           <div className="mt-6 rounded-3xl border border-white/15 bg-white/5 p-4 backdrop-blur-xl">
-            <div className="mb-4 flex items-center justify-between">
+            <div className="mb-4">
               <p className="text-xs uppercase tracking-[0.28em] text-accent">Learning Timeline</p>
-              <span className="text-[11px] uppercase tracking-[0.22em] text-mist">Scroll</span>
             </div>
             <div className="relative">
               <div className="pointer-events-none absolute inset-x-0 top-0 z-10 h-10 bg-gradient-to-b from-[#0b1120] via-[#0b1120]/70 to-transparent dark:from-[#0b1120]" />
